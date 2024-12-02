@@ -1,0 +1,28 @@
+.note__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+   width: 50%;
+    margin-left: 20rem;
+}
+
+.not-text{
+    margin-right: 15rem;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.note__remove-btn{
+    margin-left: 19.3rem;
+    background-color: red;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+
+.note__remove-icon{
+    color: white;
+    padding: 0.3rem;
+}

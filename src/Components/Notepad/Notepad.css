@@ -1,0 +1,51 @@
+.notePad__title{
+    color: lightseagreen;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.notePad__input{
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px 0 lightblue;
+    margin:2rem 32rem;
+    width: 15rem;
+    height: 1.5rem;
+}
+
+::placeholder{
+    text-align: right;
+    color: lightblue;
+}
+
+.notepad__btns-box{
+    display: flex;
+    margin-left: 45rem;
+    padding:0.5rem 1rem;
+}
+
+.notepad-btn__add{
+    background-color: green;
+    border: none;
+    outline:none;
+}
+
+.notepad-btn__add-icon{
+    color: white;
+   font-size: 1rem;
+   padding: 0.2rem;
+}
+
+.notepad-btn__remove{
+    background-color: red;
+    border: none;
+    outline:none;
+    margin-left: 1rem;
+}
+
+.notepad-btn__remove-icon{
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem;
+    
+}
+

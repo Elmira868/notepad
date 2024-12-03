@@ -1,51 +1,54 @@
 .notePad__title{
-    color: lightseagreen;
-    font-size: 2rem;
     text-align: center;
+    text-shadow: 2px 2px 0 #ffc8c8;
+    color: #ff5858;
 }
 
-.notePad__input{
-    border: 1px solid lightblue;
-    box-shadow: 2px 2px 0 lightblue;
-    margin:2rem 32rem;
-    width: 15rem;
-    height: 1.5rem;
+.notepad__container{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dotted #30c67c;
+    border-bottom: 1px dotted #dc2430;
+    border-right: 1px dotted #dc2430;
+    border-left: 1px dotted #30c67c;
+    padding: 1rem;
 }
 
-::placeholder{
-    text-align: right;
-    color: lightblue;
-}
+
+
+
 
 .notepad__btns-box{
     display: flex;
-    margin-left: 45rem;
-    padding:0.5rem 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .notepad-btn__add{
-    background-color: green;
-    border: none;
-    outline:none;
+    background-color:#30c67c;
+    color: #fff;
+   border: none;
+   
 }
 
 .notepad-btn__add-icon{
-    color: white;
-   font-size: 1rem;
-   padding: 0.2rem;
+    font-size: 1.5rem;
 }
 
 .notepad-btn__remove{
-    background-color: red;
-    border: none;
-    outline:none;
-    margin-left: 1rem;
+background-color: #dc2430;
+color: #fff;
+border: none;
+margin-left: 1rem;
 }
 
 .notepad-btn__remove-icon{
-    color: white;
-    font-size: 1rem;
-    padding: 0.2rem;
-    
+    font-size: 1.2rem;
 }
 
+.notePad__colors{
+    display: flex;
+    margin-top: 1rem;
+    
+}

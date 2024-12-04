@@ -21,6 +21,20 @@ export default class Notepad extends Component {
         this.inputColorHandler = this.inputColorHandler.bind(this);
         this.emptyInput = this.emptyInput.bind(this);
         this.addNote = this.addNote.bind(this);
+        this.removeNote = this.removeNote.bind(this)
+    }
+
+    // Remove Note
+    removeNote(noteId){
+let oldNotes = [...this.state.notes]
+
+let newNotes = oldNotes.filter(note =>{
+    return note.id !== noteId
+})
+
+this.setState({
+    notes: newNotes
+})
     }
 
     // Add Notes
@@ -93,7 +107,7 @@ this.setState(prevState =>{
 
                 <div className="notePad__note">
                 {this.state.notes.map( note =>{
-                    return <Not {...note} />
+                    return <Not onRemove={this.removeNote} key={note.id} {...note} />
                 })}
                 </div>
 
